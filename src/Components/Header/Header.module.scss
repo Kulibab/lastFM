@@ -1,0 +1,33 @@
+.wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #403131;
+  z-index: 10;
+
+
+  .nav {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 15px 0;
+    max-width: 1140px;
+
+    .item {
+      width: 50%;
+      text-align: center;
+
+      a {
+        text-decoration: none;
+        font-size: 30px;
+        color: #fff;
+      }
+
+      .active {
+        color: #ba0001;
+        font-weight: 600;
+      }
+    }
+  }
+}
